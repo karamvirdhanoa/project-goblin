@@ -1,0 +1,15 @@
+services:
+  jellyfin-agent:
+    build: .
+    container_name: jellyfin-agent
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      # Docker socket access — required for container monitoring
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
