@@ -2,7 +2,7 @@
 
 ## Overview
 
-Jellyfin Agent is built around a single core principle: **the human stays in the loop**. The agent observes, reasons, and recommends — but never acts without explicit approval.
+Project Goblin is built around a single core principle: **the human stays in the loop**. The agent observes, reasons, and recommends — but never acts without explicit approval.
 
 This document covers the decision flow, module responsibilities, and the design rationale behind key choices.
 

@@ -17,7 +17,7 @@ def _format_health_report(
     sys_snap: system_monitor.SystemSnapshot,
     docker_snap: docker_monitor.DockerSnapshot,
 ) -> str:
-    lines = ["*Jellyfin Agent — Health Report*\n"]
+    lines = ["*Project Goblin — Health Report*\n"]
 
     lines.append("*System*")
     lines.append(f"CPU: {sys_snap.cpu_percent:.1f}%")
@@ -95,7 +95,7 @@ async def run() -> None:
     logger.info(
         "Agent started. Poll interval: %ds", config.POLL_INTERVAL_SECONDS
     )
-    await notifier.send("*Jellyfin Agent started* ✅\nMonitoring your stack.")
+    await notifier.send("*Project Goblin started* ✅\nMonitoring your stack.")
 
     while True:
         try:
