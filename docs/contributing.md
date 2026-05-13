@@ -1,14 +1,14 @@
 # Contributing
 
-Thanks for your interest in Jellyfin Agent. This is a portfolio project built in public — contributions, issues, and feedback are all welcome.
+Thanks for your interest in Project Goblin. This is a portfolio project built in public — contributions, issues, and feedback are all welcome.
 
 ---
 
 ## Getting Started
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/jellyfin-agent.git
-cd jellyfin-agent
+git clone https://github.com/karamvirdhanoa/project-goblin.git
+cd project-goblin
 python -m venv venv
 source venv/bin/activate      # Windows: venv\Scripts\activate
 pip install -r requirements.txt

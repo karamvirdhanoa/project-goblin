@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to Jellyfin Agent are documented here.
+All notable changes to Project Goblin are documented here.
 
 Format: [Semantic Versioning](https://semver.org)  
 Convention: [Keep a Changelog](https://keepachangelog.com)

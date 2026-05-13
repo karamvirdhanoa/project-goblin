@@ -1,4 +1,4 @@
-# 🎬 Jellyfin Agent
+# 👺 Project Goblin
 
 An AI-powered monitoring agent for self-hosted Jellyfin media servers. It watches your containers, diagnoses issues in plain English using Claude, and asks for your approval before taking any action — all via Telegram.
 
@@ -13,7 +13,7 @@ Running Jellyfin on old hardware means things break silently. Containers crash, 
 
 ## The Solution
 
-Jellyfin Agent runs alongside your stack. Every 60 seconds it checks your containers and system health, sends the picture to Claude for analysis, and messages you on Telegram with a plain-English diagnosis and a recommended action. You approve — it acts.
+Project Goblin runs alongside your stack. Every 60 seconds it checks your containers and system health, sends the picture to Claude for analysis, and messages you on Telegram with a plain-English diagnosis and a recommended action. You approve — it acts.
 
 **Supervised, not autonomous.** It never does anything without your say-so.
 
@@ -23,7 +23,7 @@ Jellyfin Agent runs alongside your stack. Every 60 seconds it checks your contai
 
 ```
 ┌─────────────────────────────────────────────────────┐
-│                   Jellyfin Agent                    │
+│                   Project Goblin                    │
 │                                                     │
 │  ┌──────────┐    ┌──────────┐    ┌───────────────┐  │
 │  │ Monitor  │───▶│  Brain   │───▶│   Notifier    │  │
@@ -54,7 +54,7 @@ See [`docs/architecture.md`](docs/architecture.md) for the full decision flow.
 ```bash
 # 1. Clone the repo
 git clone https://github.com/karamvirdhanoa/project-goblin.git
-cd jellyfin-agent
+cd project-goblin
 
 # 2. Configure
 cp .env.example .env
@@ -88,8 +88,8 @@ All configuration is via environment variables. Copy `.env.example` to `.env` an
 | Version | Description | Status |
 |---|---|---|
 | v0.1 | Repo scaffolding, README, architecture | ✅ Done |
-| v0.2 | Docker health monitoring + Telegram skeleton | 🔜 Next |
-| v0.3 | Claude integration for diagnosis | ⏳ Planned |
+| v0.2 | Docker health monitoring + Telegram skeleton | ✅ Done |
+| v0.3 | Claude integration for diagnosis | 🔜 Next |
 | v0.4 | Approval flow + restart actions | ⏳ Planned |
 | v0.5 | Jellyfin-specific health checks | ⏳ Planned |
 | v1.0 | Polished, documented, public release | ⏳ Planned |
@@ -99,7 +99,7 @@ All configuration is via environment variables. Copy `.env.example` to `.env` an
 ## Project Structure
 
 ```
-jellyfin-agent/
+project-goblin/
 ├── src/
 │   ├── agent/          # Core polling loop and orchestration
 │   ├── monitors/       # Docker + system + Jellyfin health checks

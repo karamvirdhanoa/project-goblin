@@ -1,7 +1,7 @@
 services:
-  jellyfin-agent:
+  project-goblin:
     build: .
-    container_name: jellyfin-agent
+    container_name: project-goblin
     restart: unless-stopped
     env_file:
       - .env
