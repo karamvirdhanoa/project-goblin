@@ -37,7 +37,7 @@ docs/
 | Version | Description | Status |
 |---|---|---|
 | v0.1 | Repo scaffolding, README, architecture docs | ✅ Done |
-| v0.2 | Docker monitoring, psutil metrics, Telegram skeleton, poll loop | ✅ Done |
+| v0.2 | Docker monitoring, psutil metrics, Telegram skeleton, poll loop | ✅ Done — tested and running on Linux Mint server |
 | v0.3 | Claude integration for diagnosis | 🔜 Next |
 | v0.4 | Approval flow + restart actions | ⏳ Planned |
 | v0.5 | Jellyfin-specific health checks | ⏳ Planned |

@@ -88,8 +88,8 @@ All configuration is via environment variables. Copy `.env.example` to `.env` an
 | Version | Description | Status |
 |---|---|---|
 | v0.1 | Repo scaffolding, README, architecture | ✅ Done |
-| v0.2 | Docker health monitoring + Telegram skeleton | 🔜 Next |
-| v0.3 | Claude integration for diagnosis | ⏳ Planned |
+| v0.2 | Docker health monitoring + Telegram skeleton | ✅ Done |
+| v0.3 | Claude integration for diagnosis | 🔜 Next |
 | v0.4 | Approval flow + restart actions | ⏳ Planned |
 | v0.5 | Jellyfin-specific health checks | ⏳ Planned |
 | v1.0 | Polished, documented, public release | ⏳ Planned |
